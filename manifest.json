@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "IP Scanner",
+  "version": "1.0",
+  "description": "Сканирование IP адресов",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://api.hackertarget.com/*",
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
